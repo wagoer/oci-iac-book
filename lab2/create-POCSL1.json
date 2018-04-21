@@ -1,0 +1,30 @@
+{
+    "compartmentId": "ocid1.compartment.oc1..aaaaaaaal7yma7iwruue2altr2cmgns4svg57relimneoixu7t5hefneolxa",
+    "displayName": "POCSL1",
+    "egressSecurityRules": [
+        {
+            "destination": "0.0.0.0/0",
+            "isStateless": false,
+            "protocol": "6",
+            "tcpOptions": {
+                "destinationPortRange": null,
+                "sourcePortRange": null
+            }
+        }
+    ],
+    "ingressSecurityRules": [
+        {
+            "isStateless": false,
+            "protocol": "6",
+            "source": "0.0.0.0/0",
+            "tcpOptions": {
+                "destinationPortRange": {
+                    "max": 3389,
+                    "min": 3389
+                },
+                "sourcePortRange": null
+            }
+        }
+    ],
+    "vcnId": "ocid1.vcn.oc1.eu-frankfurt-1.aaaaaaaatuhz5nezuh53e23e34eetfcvllydlrxpammbtlnn2oi44rc5lgca"
+}
