@@ -1,0 +1,4 @@
+#!/bin/bash
+touch /root/starting_run
+yum update -y
+touch /root/run_complete
